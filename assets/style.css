@@ -45,29 +45,6 @@ main {
     flex: 1 0 0;
     margin: 20px;
   }
-
-  /* .card {
-    flex: 1 0 100%;
-    padding: 10px;
-    margin: 0px;
-  } */
-
-  /* .card {
-    flex-basis: calc(33.33% - 20px);
-    margin: 10px; 
-  } */
-
-/* Style the first card to be bigger */
-
-/* .card.first {
-    flex-basis: calc(66.66% - 20px); 
-} */
-
-/* Ensure images within cards are responsive */
-/* .card img {
-    width: 100%;
-    height: auto;
-} */
   
 
 
@@ -91,27 +68,18 @@ nav {
   }
   
 
-
-
 .justify-center{
     justify-content: center;
 }
 
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+
 @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
     .card {
       flex: 0 0 50%;
       max-width: 50%;
     }
-  
-    /* select the first child to grow to full width if it has space to grow
-    .card:first-child {
-      flex-grow: 1;
-    } */
   }
   
-  /* media query for larger screens */
   @media screen and (min-width: 992px) {
     header {
       width: 75%;
